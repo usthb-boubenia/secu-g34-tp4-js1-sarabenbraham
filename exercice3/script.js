@@ -13,7 +13,7 @@ function A(){
         const id=Students[i][0];
         const note1=Students[i][3];
         const note2=Students[i][4];
-        const moyenne=(note1+note2)/2;
+        const moyenne=(note1+note2)/2+5;
         const resultat=B(moyenne);
 
         console.log(id + ":" + resultat);
